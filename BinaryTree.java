@@ -94,7 +94,6 @@ public class BinaryTree{
 		inOrder(OGroot.getRightChild());
 	}
 	
-	/*Note: had to look inOrder up online*/
 	public void inOrder(Node groot){
 		if(groot == null){
 			return;
